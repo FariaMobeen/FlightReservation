@@ -1,0 +1,23 @@
+.app-container {
+    text-align: center;
+  }
+  
+  .app-header {
+    color: #007bff; /* Blue color for the header */
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .app-button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745; /* Green color for buttons */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

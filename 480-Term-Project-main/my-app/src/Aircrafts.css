@@ -1,0 +1,96 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manage-crew-modal {
+  background: #fff; /* White background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Drop shadow for a subtle effect */
+}
+
+.manage-crew-modal h3 {
+  margin-bottom: 10px;
+}
+
+.manage-crew-modal ul {
+  list-style: none;
+  padding: 0;
+}
+
+.manage-crew-modal li {
+  margin-bottom: 10px;
+}
+  
+  .add-aircraft-modal {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  /* Style for the seatmap container */
+.seatmap-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style for each individual seat */
+.seat {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+
+/* Style for taken seats */
+.seat.taken {
+  background-color: #ff6666; /* Red */
+  color: #fff; /* White text for better visibility */
+}
+
+/* Style for available seats */
+.seat.available {
+  background-color: #66cc66; /* Green */
+  color: #fff; /* White text for better visibility */
+}
+
+.seat.empty {
+  background-color: #fff; /* Green */
+  color: #fff; /* White text for better visibility */
+}
+
+.seat.ordinary {
+  background-color: #aaffaa; /* Green for ordinary seats */
+}
+
+.seat.comfort {
+  background-color: #aaaaff; /* Blue for comfort seats */
+}
+
+.seat.business {
+  background-color: #ffaaaa; /* Red for business seats */
+}
+
+.seat.selected {
+  background-color: gray;
+  color: white; /* Add this if you want the text to be white for better visibility */
+}
+.seat.taken {
+  background-color: black;
+  /* Add any other styling you want for taken seats */
+}
